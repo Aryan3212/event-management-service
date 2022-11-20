@@ -63,7 +63,7 @@ You can use Postman by exporting the `Insomnia_2022-11-20.json` file.
 }
 ```
 
-3. GET /workshops
+3. GET /events/{eventId}/workshops
    Get all the active workshops of a single event
 
 ```js
@@ -83,8 +83,7 @@ You can use Postman by exporting the `Insomnia_2022-11-20.json` file.
     ]
 }
 ```
-
-4. GET /workshops/{id}
+4. GET /events/{eventId}/workshops/{workshopId}
    Get single workshop information
 
 ```js
@@ -98,7 +97,7 @@ You can use Postman by exporting the `Insomnia_2022-11-20.json` file.
 }
 ```
 
-5. POST /workshop/{id}
+5. POST /events/{eventId}/workshops/{workshopId}
 
 Request:
 
