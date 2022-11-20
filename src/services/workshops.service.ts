@@ -6,7 +6,8 @@ export async function listWorkshops(id: number) {
     const eventRepo = dataSource.getRepository(EventsEntity)
     const event = await eventRepo.createQueryBuilder("event")
         .where("event.id = :id", { id })
-        .leftJoinAndSelect("event.workshops", "workshop")
+        .leftJoinAndSelect("event.workshops", "workshop", "workshop.start_at > NOW()")
+
         .getOne();
     return event;
 }
