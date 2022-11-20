@@ -36,7 +36,7 @@ export const workshopPayloads = [
     {
         title: " Active Workshop 2 from Event 1",
         description: "Active Workshop",
-        start_at: new Date(Date.now() + 2000000),
+        start_at: new Date(Date.now() + 20000000),
         end_at: new Date(Date.now() + 3000000),
     },
     {
@@ -48,7 +48,7 @@ export const workshopPayloads = [
     {
         title: " Active Workshop 4 from Event 2",
         description: "Active Workshop",
-        start_at: new Date(Date.now() + 50000),
+        start_at: new Date(Date.now() + 5000000),
         end_at: new Date(Date.now() + 3000000),
     },
     {
@@ -64,9 +64,15 @@ export const workshopPayloads = [
         end_at: new Date(Date.now() + 3000000),
     },
     {
-        title: " Inactive Workshop 5 from Event 3",
+        title: " active Workshop 5 from Event 3",
         description: "Inactive Workshop",
-        start_at: new Date(Date.now() - 100),
+        start_at: new Date(Date.now() + 1000000000),
+        end_at: new Date(Date.now() + 3000000),
+    },
+    {
+        title: "Active Workshop 1 from Event 1",
+        description: "Active Workshop",
+        start_at: new Date(Date.now() + 1000000),
         end_at: new Date(Date.now() + 3000000),
     },
     {
@@ -76,15 +82,9 @@ export const workshopPayloads = [
         end_at: new Date(Date.now() + 3000000),
     },
     {
-        title: " Inactive Workshop 5 from Event 3",
-        description: "Inactive Workshop",
-        start_at: new Date(Date.now() - 100),
-        end_at: new Date(Date.now() + 3000000),
-    },
-    {
-        title: " Inactive Workshop 5 from Event 3",
-        description: "Inactive Workshop",
-        start_at: new Date(Date.now() - 100),
+        title: "Active Workshop 1 from Event 1",
+        description: "Active Workshop",
+        start_at: new Date(Date.now() + 1000000),
         end_at: new Date(Date.now() + 3000000),
     }
 ];
