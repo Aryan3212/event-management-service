@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es6"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "strict": true,
+    "target": "ES2017"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
