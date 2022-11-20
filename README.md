@@ -9,9 +9,7 @@ Language: TypeScript
 Install necessary packages
 
 ```
-npm i express zod express pino pino-pretty lodash typeorm
-
-npm i -D @types/express @types/node  @types/lodash ts-node-dev typescript
+npm i 
 ```
 
 Run seeding script
