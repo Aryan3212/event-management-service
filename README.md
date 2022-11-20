@@ -97,7 +97,7 @@ You can use Postman by exporting the `Insomnia_2022-11-20.json` file.
 }
 ```
 
-5. POST /events/{eventId}/workshops/{workshopId}
+5. POST /events/{eventId}/workshops/{workshopId}/reservations 
 
 Request:
 
