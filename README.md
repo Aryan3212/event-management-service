@@ -20,7 +20,7 @@ Run seeding script
 npm run seed
 ```
 
-You can use Postman by exporting the `Insomnia_2022-11-20.json` file.
+You can use Postman by importing the `Insomnia_2022-11-20.json` file.
 
 ## Database Design
 
