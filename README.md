@@ -12,7 +12,7 @@ Install necessary packages
 npm i 
 ```
 
-Create a database in MySQL and put your congigurations inside `src/app-data-source.ts`
+Create a database in MySQL and put your configurations inside `src/app-data-source.ts`
 
 Run seeding script
 
